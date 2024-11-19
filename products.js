@@ -26,7 +26,8 @@ console.log(`
   `);
   
 //e-
-electrodomesticos.filter(electrodomesticos => electrodomesticos[0] === "l".toLowerCase() ? console.log('Producto encontrado :' + electrodomesticos):console.log('El producto buscado no existe'));
+const electrodomestico = "licuadora";
+electrodomesticos.includes(electrodomestico) ? console.log('Producto encontrado :' + electrodomestico) : console.log('El producto buscado no existe');
 
 //f-
  
